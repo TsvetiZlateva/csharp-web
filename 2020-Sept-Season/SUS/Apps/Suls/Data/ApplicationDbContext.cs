@@ -23,7 +23,7 @@ namespace Suls.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=.;Database=Suls;Integrated Security=True;");
+                optionsBuilder.UseSqlServer(@"Server=.\SQLExpress;Database=Suls;Integrated Security=True;");
             }
         }
     }
